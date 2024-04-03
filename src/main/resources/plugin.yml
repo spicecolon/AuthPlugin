@@ -1,0 +1,11 @@
+commands:
+  login:
+    description: Login command
+    usage: /<command> password
+  signup:
+      description: Signup command
+      usage: /<command> password confirmPassword
+
+main: org.example.Main
+name: login_welcome
+version: 1.0
