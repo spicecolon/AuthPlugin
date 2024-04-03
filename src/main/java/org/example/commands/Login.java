@@ -37,7 +37,6 @@ public class Login implements CommandExecutor {
             String passwordHashed = Main.hexToString(messageDigest.digest(passwordBytes));
 
             System.console().printf(passwordHashed);
-            System.console().printf(password);
 
             if (!(passwdSHA256.equals(passwordHashed))) {
                 player.sendMessage("Invalid password");
